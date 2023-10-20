@@ -1,0 +1,19 @@
+### token
+
+POST https://chupaprecios.com.mx/rest/V1/integration/admin/token
+Content-Type: application/json
+
+{
+  "username": "candidatoFront", 
+  "password": "Ch8t45t!f"
+}
+
+
+### GET Products
+GET https://chupaprecios.com.mx/rest/V1/chupaprecios/customcatalog/?search=perro&selected_store=amazon&page_num=1
+Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjE2LCJ1dHlwaWQiOjIsImlhdCI6MTY5NzY4NTAyOSwiZXhwIjoxNjk3Njg4NjI5fQ.GT8TUjHuauKNXT497GsoX6Kj_pBSm7U_F7DyeGB0ER4
+
+
+### GET Product
+GET https://chupaprecios.com.mx/rest/V1/chupaprecios/productdetail/?asin=B07ZQS94VJ&selectedStore=amazon
+Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjE2LCJ1dHlwaWQiOjIsImlhdCI6MTY5NzY4NTAyOSwiZXhwIjoxNjk3Njg4NjI5fQ.GT8TUjHuauKNXT497GsoX6Kj_pBSm7U_F7DyeGB0ER4
